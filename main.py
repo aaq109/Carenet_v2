@@ -27,7 +27,7 @@ parser.add_argument('--batch_size', type=int, default=64,
 parser.add_argument('--min_count', type=int, default=50,
                     help='Minimum code count')
 parser.add_argument('--sentence_limit', type=int, default=10,
-                    help='10 by default one sentence per care unit (IP,OP,PC,ED,AMB,Others,SCB,ECG,HDF,Onsite))')
+                    help='10 by default one sentence per care unit (IP,OP,PC,ED,AMB,Others,SCB,ECG,HDF,Onsite)')
 parser.add_argument('--word_limit', type=int, default=30,
                     help='Maximum number of codes/words allowed per sentence')
 parser.add_argument('--emb_size', type=int, default=100,
